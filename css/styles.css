@@ -340,6 +340,8 @@ body{
 .container{
     display: flex;
     align-items: baseline;
+}
+.containera{
     margin-right: 120px;
 }
 .container_social_media{
