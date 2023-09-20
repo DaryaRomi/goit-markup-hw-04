@@ -238,11 +238,6 @@ body{
 .container{
     padding: 32px 0;
 }
-.team-icon{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
 .svg-icon{
     display: flex;
     justify-content: center;
