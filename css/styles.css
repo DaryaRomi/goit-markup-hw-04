@@ -167,7 +167,7 @@ body{
     background-color: #FFFFFF;
     padding: 120px 0;
 }
-.ccontainer{
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
