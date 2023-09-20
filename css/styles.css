@@ -400,16 +400,13 @@ body{
 .containera{
     margin-right: 120px;
 }
-.container_social_media{
-
-}
 .social_media{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 .team-icon{
     display: flex;
@@ -419,7 +416,7 @@ body{
     width: 40px;
     height: 40px;
 }
-.team-icon-svg{
+.svg-icon{
     width: 40px;
     height: 40px;
     width: 100%;
