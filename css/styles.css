@@ -114,7 +114,7 @@ body{
 .section-first{
     background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/icons.svg/Icon\ 2.svg); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,7 +129,7 @@ body{
     color: #ffffff;
     max-width: 496px;
 }
-.section-first-btn{
+.section-first-btn{ 
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -144,6 +144,8 @@ body{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+.section-first-btn{
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-first-btn:hover{
