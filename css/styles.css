@@ -257,7 +257,9 @@ body{
     align-items: center;
     justify-content: center;
 }
-.sending:hover,
+.sending:hover{
+    background-color: #404BBF;
+}
 .sending:focus{
     background-color: #404BBF;
 }
