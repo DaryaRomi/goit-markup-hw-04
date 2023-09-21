@@ -253,13 +253,13 @@ body{
     height: 40px;
 }
 .sending{
-    width: 100px;
-    height: 100px;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100px;
+    height: 100px;
 }
 .sending:hover{
     background-color: #404BBF;
