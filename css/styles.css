@@ -258,8 +258,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
 }
 .sending:hover{
     background-color: #404BBF;
