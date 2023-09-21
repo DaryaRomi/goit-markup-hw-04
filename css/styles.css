@@ -257,8 +257,8 @@ body{
     align-items: center;
     justify-content: center;
 }
-.team-icon-svg:hover,
-.team-icon-svg:focus{
+.sending:hover,
+.sending:focus{
     background-color: #404BBF;
 }
 .img_foto{
