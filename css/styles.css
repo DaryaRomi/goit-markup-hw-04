@@ -435,7 +435,7 @@ body{
 .da:hover{
     background-color: #31d0aa;
 }
-.da:hover{
+.da:focus{
     background-color: #31d0aa;
 }
 .team-icon-svg{
