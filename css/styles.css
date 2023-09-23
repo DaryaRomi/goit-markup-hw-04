@@ -224,6 +224,14 @@ body{
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+.container{
+    padding: 32px 0;
+}
+.sectionc_list_container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 .same_container{
     border-radius: 0px 0px 4px 4px;
     padding: 32px 0;
@@ -236,9 +244,6 @@ body{
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-}
-.container{
-    padding: 32px 0;
 }
 .team-icon{
     display: flex;
