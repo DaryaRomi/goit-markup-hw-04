@@ -390,6 +390,12 @@ body{
     height: 100%;
     width: 100%;
 }
+.paragraph_element{
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+}
 .sectiond-main:hover .paragraph_element{
     transform: translateY(0%);
 }
