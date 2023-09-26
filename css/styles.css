@@ -433,6 +433,15 @@ ul{
 .container_footer_second{
     margin-right: 120px;
 }
+.try{
+    display: flex;
+    align-items: baseline;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .footer_logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
