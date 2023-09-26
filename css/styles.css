@@ -62,9 +62,6 @@ ul{
 .headerlist{
     display: flex;
     gap: 40px;
-    margin: 0;
-    padding-left: 0;
-    position: relative;
 }
 .list_adress{
     display: flex;
