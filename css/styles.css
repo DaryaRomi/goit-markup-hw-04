@@ -196,7 +196,7 @@ ul{
     padding: 0 15px;
 }
 .sectionb_container{
-    display: inline-flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
     height: 112px;
