@@ -140,13 +140,13 @@ ul{
 
 
 .section-first{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg); 
     padding: 188px 0;
     background-repeat: no-repeat;
     max-width: 1440px;
     background-size:cover;
     background-position: center;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
 }
 .section-first-header{
     font-size: 56px;
