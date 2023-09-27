@@ -411,7 +411,7 @@ ul{
 .sectiond-main:hover .paragraph_element{
     transform: translateY(0%);
 }
-.just_a_try{
+.text_container{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
