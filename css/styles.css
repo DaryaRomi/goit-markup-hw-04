@@ -51,6 +51,7 @@ ul{
     color: #2e2f42;
 }
 .headerlogo{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -58,6 +59,8 @@ ul{
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
+    position: relative;
 }
 .headerlist{
     display: flex;
@@ -69,34 +72,40 @@ ul{
     transition: color 250ms cubic-bezier(0.4,0,0.2,1);
 }
 .studio{
+    color: #404bbf;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.studio::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 2px;
+}
+.studi{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#2e2f42;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    color: #2e2f42;
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
     position: relative;
-    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-::after{
-    color: #404bbf;
-    content: '';
-    position: absolute;
-    left: 0; 
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.studio:hover{
-    color: #404bbf;
-}
-.studio:focus{
-    color: #404bbf;
-}
+.studi:hover{
+    color: #404BBF;
 .headeraddress{
     font-style: normal;
     display: flex;
@@ -107,6 +116,7 @@ ul{
     color: #404bbf;
 }
 .headeraddress{
+    font-style: normal;
     display: flex;
     gap: 40px;
 }
@@ -115,6 +125,9 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .one:hover,
